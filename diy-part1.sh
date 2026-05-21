@@ -11,4 +11,7 @@
 #
 # Uncomment a feed source
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-
+cd openwrt
+rm -rf package/luci-app-easytier
+    git clone --depth 1 https://github.com/EasyTier/luci-app-easytier.git package/luci-app-easytier
+    echo "luci-app-easytier 克隆完成"
