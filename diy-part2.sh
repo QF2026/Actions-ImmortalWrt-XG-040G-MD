@@ -9,6 +9,6 @@
 # File name: diy-part2.sh
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
-cd openwrt
+
 #更改默认IP
 sed -i 's/192.168.1.1/192.168.1.200/g' package/base-files/files/bin/config_generate
